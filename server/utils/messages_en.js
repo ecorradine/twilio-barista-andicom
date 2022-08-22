@@ -18,7 +18,7 @@ const EXISTING_ORDER_MESSAGES = [
 
 // available values: product, orderNumber
 const ORDER_CREATED_MESSAGES = [
-  "Gracias por ordernar  ${product} desde  Twilio powered Coffee Shop. Tu número de orden #${orderNumber}. Te enviaremos un mensaje de WhatsApp cuando este listo. ${dataPolicy} Mientras tanto revisa nuestro repositorio ${repoUrl} si deseas ver como podemos construirlo ",
+  "Thanks for ordering a ${product} from the Twilio powered Coffee Shop. Your order number is #${orderNumber}. We'll text you back when it's ready. ${dataPolicy} In the meantime check out this repo ${repoUrl} if you want to see how we built this app. ",
 ];
 
 // available values: product, orderNumber
